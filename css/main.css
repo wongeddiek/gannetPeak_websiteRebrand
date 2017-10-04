@@ -2,6 +2,29 @@ body {
   font-family: "Helvetica Neue"
 }
 
+/*top jumbotron styling*/
+.jumbo-header {
+  height: 360px;
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(135deg, #0794b9 0%,#067ea4 40%,#035b83 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*top contact button styling*/
+.top-btn-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.top-btn {
+  width: 120px;
+  border-radius: 10px;
+}
+
 /*center navbar menu items when it's not collapsed*/
 @media (min-width: 768px) {
   .navbar-nav {
@@ -14,28 +37,60 @@ body {
   }
 }
 
-
+/*top navbar styling*/
 .navbar-top {
   background-color: #005073;
   border: none;
   border-radius: 0;
 }
 
-.jumbo-header {
-  height: 360px;
-  margin: 0px;
-  padding: 0px;
-  background: linear-gradient(135deg, #0794b9 0%,#067ea4 40%,#035b83 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .navbar-default .navbar-nav > li > a {
   color: white;
 }
 
+/*fontawesome styling for nav menu icons*/
 .fa-block {
   display: block;
   text-align: center;
+}
+
+/*home page main content top-bar styling*/
+section {
+  margin: 50px 0;
+}
+
+.text-bar-box {
+  padding: 0 30px 0 30px;
+}
+
+.text-bar {
+  border-top: solid 8px #E4E3E3;
+  color: #9B9B9B;
+}
+
+.text-bar-active {
+  border-top: solid 8px #4A90E2;
+  color: #4A90E2;
+}
+
+.text-bar-text {
+  margin-top: 10px;
+  font-size: 1.4em;
+}
+
+/*main text container styling*/
+.text-container {
+  color: #4A4A4A;
+  font-size: 1.3em;
+}
+
+/*footer styling*/
+.navbar-bottom {
+  margin-bottom: 0px;
+  background-color: #005073;
+  color: white;
+}
+
+#logo-sm {
+  width: 100px;
 }

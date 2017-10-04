@@ -15,6 +15,10 @@
   </head>
   <body>
     <div class="jumbotron jumbo-header">
+      <!-- Contact button -->
+      <div class="top-btn-container">
+        <button class="btn btn-primary top-btn" type="button" name="button">contact</button>
+      </div>
       <!-- SVG logo image -->
       <div class="logo-container">
         <?xml version="1.0" encoding="UTF-8"?>
@@ -64,7 +68,66 @@
           </ul>
         </div><!--/.navbar-collapse -->
       </div>
-    </nav>
+    </nav> <!-- end navbar -->
+
+    <!-- main content -->
+    <main>
+      <!-- main content text bar section -->
+      <section class="container-fluid text-bar-container">
+        <div class="row">
+          <div class="col-sm-3 text-bar-box">
+            <div class="text-bar text-bar-active">
+              <p class="text-bar-text">Expertise</p>
+            </div>
+          </div>
+          <div class="col-sm-3 text-bar-box">
+            <div class="text-bar">
+              <p class="text-bar-text">Approach</p>
+            </div>
+          </div>
+          <div class="col-sm-3 text-bar-box">
+            <div class="text-bar">
+              <p class="text-bar-text">Team Work</p>
+            </div>
+          </div>
+          <div class="col-sm-3 text-bar-box">
+            <div class="text-bar">
+              <p class="text-bar-text">Client</p>
+            </div>
+          </div>
+        </div>
+      </section> <!--end text bar section -->
+
+      <!-- main text section -->
+      <section class="container-fluid">
+        <div class="text-container col-sm-4 col-sm-offset-4">
+          <p>Established in 2006, Gannett Peak Technical Services is a software development and consulting firm that represents the highest point of quality.</P>
+
+          <p>Our number one goal is creating efficient systems for individual needs, rather than trying to fix clients’ unique challenges using one-size-fits-all, pre-built software.</p>
+
+          <button class="btn btn-default"type="button" name="button">more about expertise</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="navbar-bottom" role="footer">
+      <div class="container container-footer">
+        <div class="navbar-text pull-left">
+          <img id="logo-sm" src="sketch/logoSm.png" alt="logo small">
+        </div>
+        <div class="navbar-text pull-left">
+          <p>1709 Carey Ave Ste 1<br>
+            Cheyenne, WY 82001
+          </p>
+        </div>
+        <div class="navbar-text pull-right">
+          <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+          <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+        </div>
+      </div>
+    </footer>
 
     <!-- jquery link -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
