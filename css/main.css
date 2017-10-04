@@ -21,8 +21,11 @@ body {
 }
 
 .top-btn {
-  width: 120px;
+  width: 150px;
+  height: 45px;
   border-radius: 10px;
+  background-color: #4A90E2;
+  font-size: 1.1em;
 }
 
 /*center navbar menu items when it's not collapsed*/
@@ -103,6 +106,19 @@ section {
   margin-bottom: 30px;
 }
 
+.btn-main {
+  width: 240px;
+  height: 50px;
+  font-size: 1em;
+  background-color: #E4E3E3;
+  color: #4A4A4A;
+  border: none;
+}
+
+#btn-play {
+  color: #4A90E2;
+}
+
 
 
 /*footer styling*/
@@ -110,6 +126,17 @@ section {
   margin-bottom: 0px;
   background-color: #005073;
   color: white;
+  border-radius: 0px;
+}
+
+.container-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text {
+  margin-top: 30px;
 }
 
 #logo-sm {
