@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280px" height="471px" viewBox="0 0 1280 471" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>jumbotron_carousel</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0.783522436%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0794B9" offset="0%"></stop>
+            <stop stop-color="#067EA4" offset="39.4105182%"></stop>
+            <stop stop-color="#067EA4" offset="39.4105182%"></stop>
+            <stop stop-color="#035B83" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="home_page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="default-" fill="url(#linearGradient-1)">
+            <g id="jumbotron_nav_bar" transform="translate(-14.000000, 0.000000)">
+                <rect id="jumbotron_carousel" x="0" y="0" width="1294" height="471"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

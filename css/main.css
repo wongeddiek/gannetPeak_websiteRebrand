@@ -6,3 +6,10 @@
     justify-content: space-between;
   }
 }
+
+.jumbo-header {
+  height: 460px;
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(135deg, #0794b9 0%,#067ea4 40%,#035b83 100%);
+}
