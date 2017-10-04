@@ -1,3 +1,7 @@
+body {
+  font-family: "Helvetica Neue"
+}
+
 /*center navbar menu items when it's not collapsed*/
 @media (min-width: 768px) {
   .navbar-nav {
@@ -5,11 +9,33 @@
     display: flex;
     justify-content: space-between;
   }
+  #navbar {
+    width: 100%;
+  }
+}
+
+
+.navbar-top {
+  background-color: #005073;
+  border: none;
+  border-radius: 0;
 }
 
 .jumbo-header {
-  height: 460px;
+  height: 360px;
   margin: 0px;
   padding: 0px;
   background: linear-gradient(135deg, #0794b9 0%,#067ea4 40%,#035b83 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.fa-block {
+  display: block;
+  text-align: center;
 }
