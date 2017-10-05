@@ -28,6 +28,17 @@ body {
   font-size: 1.1em;
 }
 
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary:active:focus {
+  border: none;
+  background-color: #005073;
+  outline: none;
+  box-shadow: none;
+}
+
+/*.top-btn:active, .top-btn:active:focus {
+  background-color: #4A90E2;
+}*/
+
 /*center navbar menu items when it's not collapsed*/
 @media (min-width: 768px) {
   .navbar-nav {
@@ -43,6 +54,20 @@ body {
   .navbar-default .navbar-nav > li > a {
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
+  }
+
+  /*fontawesome styling for nav menu icons*/
+  .fa-block {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .fa-block {
+    display: inline-block;
+    padding-right: 15px;
   }
 }
 
@@ -55,13 +80,6 @@ body {
 
 .navbar-default .navbar-nav > li > a {
   color: white;
-  text-align: center;
-}
-
-/*fontawesome styling for nav menu icons*/
-.fa-block {
-  display: block;
-  text-align: center;
 }
 
 /*home page main content top-bar styling*/
