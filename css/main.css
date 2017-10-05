@@ -114,7 +114,8 @@ section {
 /*main text container styling*/
 .text-container {
   max-width: 450px;
-  margin: 0 auto;
+  min-height: 300px;
+  margin: 0 auto 50px auto;
   color: #4A4A4A;
   font-size: 1.35em;
 }
@@ -123,10 +124,14 @@ section {
   margin-bottom: 30px;
 }
 
+#approach, #team-work, #client {
+  display: none;
+}
+
 .btn-main {
   width: 240px;
   height: 50px;
-  font-size: 1em;
+  font-size: 1.2em;
   background-color: #E4E3E3;
   color: #4A4A4A;
   border: none;
