@@ -57,6 +57,11 @@ body {
     text-align: center;
   }
 
+  .navbar-default .navbar-nav > li > a:hover,   .navbar-default .navbar-nav > li > a:active,
+    .navbar-default .navbar-nav > li > a:focus {
+    color: #9B9B9B;
+  }
+
   /*fontawesome styling for nav menu icons*/
   .fa-block {
     display: block;
