@@ -28,16 +28,13 @@ body {
   font-size: 1.1em;
 }
 
+/*changed default btn-primary event effects*/
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary:active:focus {
   border: none;
   background-color: #005073;
   outline: none;
   box-shadow: none;
 }
-
-/*.top-btn:active, .top-btn:active:focus {
-  background-color: #4A90E2;
-}*/
 
 /*center navbar menu items when it's not collapsed*/
 @media (min-width: 768px) {
@@ -64,6 +61,7 @@ body {
   }
 }
 
+/*style menu icons when collpased*/
 @media (max-width: 767px) {
   .fa-block {
     display: inline-block;
@@ -95,6 +93,7 @@ section {
 .text-bar-box {
   min-width: 200px;
   margin: 0 10px 10px 10px;
+  cursor: pointer;
 }
 
 .text-bar {
