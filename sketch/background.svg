@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280px" height="470px" viewBox="0 0 1280 470" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0.783522436%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0794B9" offset="0%"></stop>
+            <stop stop-color="#067EA4" offset="39.4105182%"></stop>
+            <stop stop-color="#067EA4" offset="39.4105182%"></stop>
+            <stop stop-color="#035B83" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="home_page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <rect id="Rectangle-14" fill="url(#linearGradient-1)" x="0" y="0" width="1280" height="470"></rect>
+            <g id="Group" transform="translate(153.000000, 27.000000)" fill-opacity="0.5" fill="#005073">
+                <path d="M243.255187,246.130614 L87.4616978,515.040118 L23.5517774,515.040118 L247.293663,146.341463 L276.733385,188.345108 L488.699382,555.110955 L488.699382,655.052265 L243.255187,246.130614 Z M488.699382,555.260118 L657.99853,273.100159 L689.89547,322.893093 L488.699382,654.845985 L488.699382,555.260118 Z M23.5517774,515.040118 L329.724884,515.040118 L302.657916,566.377905 L0,562.270882 L23.5517774,515.040118 Z" id="Combined-Shape"></path>
+                <path d="M932.947977,588.638402 L1000,583.058205 L587.773474,0 L376.30662,310.835666 L412.443361,359.102073 L593.718351,97.6105342 L593.741281,97.9870201 L898.623605,542.514423 L635.955795,542.514423 L665.400547,583.058205 L930.362991,588.791382 L930.403314,588.850174 L930.955668,588.804206 L933.080109,588.850174 L932.947977,588.638402 Z" id="Combined-Shape"></path>
+                <animate id="animation1" attributeName="opacity" from="0" to="0.5" dur="4s" begin="0s;animation2.end" />
+                <animate id="animation2" attributeName="opacity" from="0.5" to="0" dur="4s" begin="animation1.end" />
+            </g>
+        </g>
+    </g>
+</svg>
