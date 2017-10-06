@@ -2,6 +2,18 @@ body {
   font-family: "Helvetica Neue"
 }
 
+/*changed default btn-primary event effects*/
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary:active:focus, .btn-primary:focus:hover {
+  border: none;
+  /*background-color: #005073;*/
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-primary:hover {
+  background-color: #005073;
+}
+
 /*top jumbotron styling*/
 .jumbo-header {
   height: 360px;
@@ -29,14 +41,7 @@ body {
   border-radius: 10px;
   background-color: #4A90E2;
   font-size: 1.1em;
-}
-
-/*changed default btn-primary event effects*/
-.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary:active:focus {
   border: none;
-  background-color: #005073;
-  outline: none;
-  box-shadow: none;
 }
 
 /*center navbar menu items when it's not collapsed*/
@@ -132,10 +137,12 @@ section {
   margin-bottom: 30px;
 }
 
+/*hide display on other texts*/
 #approach, #team-work, #client {
   display: none;
 }
 
+/*main text container button styling*/
 .btn-main {
   width: 240px;
   height: 50px;
@@ -149,7 +156,9 @@ section {
   color: #4A90E2;
 }
 
-
+.btn-main:hover #btn-play {
+  color: #FFF;
+}
 
 /*footer styling*/
 .navbar-bottom {
